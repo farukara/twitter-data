@@ -13,7 +13,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.search_30_day("dev30", "@LCWaikiki")
+public_tweets = api.search_30_day("dev30", "@apple")
 
 count = 0
 if path.isfile("tweets.txt"):
